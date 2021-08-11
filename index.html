@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Plex Portal</title>
+</head>
+
+<body>
+    <div class="card text-center bg-secondary vh-100" id="landingCard">
+        <div class="card-body">
+            <h5 class="card-title">Heerfamily Plex Stream Service Checker</h5>
+            <p class="card-text">Click the button below to see which of our movies are available on a streaming service!
+            </p>
+            <div id="progressTimer" class="hide">
+
+            </div>
+            <div id="button1"><button type="button" class="btn btn-warning" id="compare">Compare server to TMDB</button></div>
+            <div id="button2"></div>
+        </div>
+
+    </div>
+    <div id="movies" class="d-flex flex-row flex-wrap justify-content-evenly align-items-start bg-secondary hide"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="assets/index.js"></script>
+</body>
+
+</html>
